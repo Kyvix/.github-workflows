@@ -10,3 +10,12 @@ jobs:
         run: |
           echo This demo file shows a 
           echo very basic and easy-to-understand workflow.
+  Testing:
+      name: Hello world 2
+      runs-on: ubuntu-latest
+      steps:
+      - uses: actions/checkout@v2
+      - name: Write a multi-line message
+        run: |
+          echo This demo file shows a 
+          echo very basic and easy-to-understand workflow.
